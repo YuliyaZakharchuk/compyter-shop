@@ -1,0 +1,51 @@
+.title-block {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+div.logo-div {
+    width: 105px;
+    height: 100%;
+    float: left;
+}
+
+div.logo-div::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo-image {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.we-work {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding: 2% 2% 2% 2%;
+}
+
+.search {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 2% 2% 2% 2%;
+}
+
+.contact {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding: 2% 2% 2% 2%;
+}
+
+.title-element {
+    width: 100px;
+    float: left;
+}

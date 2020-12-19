@@ -1,0 +1,17 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: darkmagenta;
+}
