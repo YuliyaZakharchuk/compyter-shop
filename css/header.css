@@ -1,0 +1,98 @@
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    width: 180px;
+    height: 100px;
+    display: block;
+    padding: 20% 20% 20% 20%;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.menu>li>a:hover {
+    background-color: darkred;
+}
+
+ul.menu>li>a>button:hover {
+    background-color: darkred;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 180px;
+    top: 100px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+
+ul.submenu>li {
+    display: block;
+}
+
+ul.submenu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+ul.submenu>li>a:hover {
+    text-decoration: underline;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+.catalog {
+    float: right;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    top: 0;
+    right: 0px;
+    height: 42px;
+    border: none;
+    background: red;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.fa-folder-open-o:before {
+    position: absolute;
+    top: 5%;
+    bottom: 3%;
+    left: 2%;
+    right: 2%;
+    color: white;
+}
+
+.button>.catalog {
+    position: static;
+}
