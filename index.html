@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- START: Use inline html -->
@@ -13,6 +14,7 @@
         $(function() {
             $("#title").load("blocks/title.html");
             $("#header").load("blocks/header.html");
+            $("#main").load("blocks/main.html");
             $("#footer").load("blocks/footer.html");
         });
     </script>
@@ -23,7 +25,7 @@
     <div id="title"></div>
     <div id="header"></div>
     <main>
-        <div class="main">
+        <div id="main" class="main">
             <div></div>
             <div></div>
             <div></div>

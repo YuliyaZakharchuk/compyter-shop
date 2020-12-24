@@ -1,0 +1,33 @@
+.main {}
+
+.block-title {
+    color: white;
+    padding: 10% 10% 0 15%;
+    text-align: left;
+    font-size: 50px;
+}
+
+.block-title-h2 {
+    color: white;
+    padding: 0 10% 5% 15%;
+    text-align: left;
+    font-size: 35px;
+}
+
+.block-image {
+    float: right;
+    width: 85%;
+    height: 500px;
+    background-image: url(../image/computer.jpeg);
+    background-size: 100%;
+    margin: 1% 1% 1% 5%;
+}
+
+.block-image-button {
+    margin: 670px 740px 100px 400px;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}

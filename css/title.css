@@ -23,6 +23,7 @@ div.logo-div::before {
     height: 50px;
     display: inline-block;
     vertical-align: middle;
+    filter: alpha(Opacity=70);
 }
 
 .we-work {
