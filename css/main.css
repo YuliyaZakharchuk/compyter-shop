@@ -1,4 +1,4 @@
-.main {}
+/* Block-image */
 
 .block-title {
     color: white;
@@ -32,6 +32,9 @@
     font-size: 18px;
 }
 
+
+/* Block-news */
+
 .news {
     height: 300px;
     width: 170px;
@@ -61,6 +64,9 @@
     float: right;
     padding: 2%;
 }
+
+
+/* Block-icon */
 
 .icon {
     float: right;
@@ -93,4 +99,103 @@
 
 .icon-p {
     padding-left: 5%;
+}
+
+
+/* Block-category */
+
+.category {
+    float: right;
+    width: 83%;
+    height: 650px;
+    background-color: rgb(73, 50, 205);
+    margin: 1% 1% 2% 5%;
+    display: inline-block;
+}
+
+.nootbook {
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 1% 1% 1% 2%;
+}
+
+.nootbook-button {
+    margin: 1275px 855px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}
+
+.computer {
+    float: left;
+    display: inline-block;
+}
+
+.computer-button {
+    margin: 1275px 509px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}
+
+.printer {
+    display: inline-block;
+    float: left;
+}
+
+.printer-button {
+    margin: 1275px 162px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}
+
+.monitor {
+    display: inline-block;
+    float: left;
+}
+
+.monitor-button {
+    margin: 1595px 855px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}
+
+.proektor {
+    float: left;
+    display: inline-block;
+}
+
+.proektor-button {
+    margin: 1595px 509px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+}
+
+.scaner {
+    display: inline-block;
+    float: left;
+}
+
+.scaner-button {
+    margin: 1595px 162px 0 0;
+    height: 40px;
+    width: 194px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
 }
