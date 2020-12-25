@@ -73,7 +73,7 @@ ul.menu>li:hover>ul.submenu {
 .catalog {
     float: right;
     position: relative;
-    margin: 0;
+    margin-left: 2%;
     padding: 10px;
     top: 0;
     right: 0px;
