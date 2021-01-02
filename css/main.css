@@ -465,3 +465,65 @@
 .reviews-text {
     margin: 0;
 }
+
+/* form-return */
+.form {
+    display: block;
+}
+.form-return {
+    width: 100%;
+    height: 300px;
+    background-color: sienna;
+    float: right;
+}
+.form-return-line {
+    float: right;
+    width: 98%;
+    height: 80px;
+    background-color: red;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.form-return-line-text {
+    float: left;
+    margin: 2%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.form-input-name {
+    width: 30%;
+    float: left;
+    margin: 2% 0 2% 3%;
+}
+.name {
+    color: yellow;
+    float: left;
+    margin: 0 0 0 4%;
+}
+.form-input-telefon {
+    width: 30%;
+    float: left;
+    margin: 2% 0 2% 3%;
+}
+.telefon {
+    color: yellow;
+    margin: 0 0 0 37%;
+}
+.form-button {
+    width: 25%;
+    background-color: red;
+    margin: 2% 0 2% 3%;
+}
+.form-checkbox {
+    width: 20%;
+    height: 22px;
+    float: left;
+    margin-top: 2%
+}
+.form-checkbox-text {
+    margin-left: 0;
+    padding: 0;
+    font-size: 18px;
+    color: yellowgreen;
+}
