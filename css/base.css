@@ -5,13 +5,12 @@
 }
 
 .main {
-    height: 2800px;
+    height: 2600px;
     width: 100%;
     background-color: darkgoldenrod;
 }
 
 .footer {
-    height: 200px;
+    height: 400px;
     width: 100%;
-    background-color: darkmagenta;
 }
