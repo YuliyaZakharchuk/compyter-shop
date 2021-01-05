@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    vertical-align: middle;
 }
 
 ul:after {
@@ -10,11 +11,13 @@ ul:after {
     content: ' ';
     clear: both;
     float: none;
+    vertical-align: middle;
 }
 
 ul.menu>li {
     float: left;
     position: relative;
+    vertical-align: middle;
 }
 
 ul.menu>li>a {
@@ -26,14 +29,17 @@ ul.menu>li>a {
     background-color: red;
     text-decoration: none;
     text-align: center;
+    vertical-align: middle;
 }
 
 ul.menu>li>a:hover {
     background-color: darkred;
+    vertical-align: middle;
 }
 
 ul.menu>li>a>button:hover {
     background-color: darkred;
+    vertical-align: middle;
 }
 
 ul.submenu {
@@ -44,10 +50,12 @@ ul.submenu {
     left: 0;
     background-color: white;
     border: 1px solid red;
+    vertical-align: middle;
 }
 
 ul.submenu>li {
     display: block;
+    vertical-align: middle;
 }
 
 ul.submenu>li>a {
@@ -56,18 +64,22 @@ ul.submenu>li>a {
     color: white;
     background-color: red;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 ul.submenu>li>a:hover {
     text-decoration: underline;
+    vertical-align: middle;
 }
 
 ul.menu>li:hover>ul.submenu {
     display: block;
+    vertical-align: middle;
 }
 
 ul.menu>li:hover>ul.submenu {
     display: block;
+    vertical-align: middle;
 }
 
 .catalog {
@@ -82,6 +94,7 @@ ul.menu>li:hover>ul.submenu {
     background: red;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .fa-folder-open-o:before {
@@ -91,8 +104,10 @@ ul.menu>li:hover>ul.submenu {
     left: 2%;
     right: 2%;
     color: white;
+    vertical-align: middle;
 }
 
 .button>.catalog {
     position: static;
+    vertical-align: middle;
 }

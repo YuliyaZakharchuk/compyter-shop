@@ -5,6 +5,7 @@
     padding: 10% 10% 0 15%;
     text-align: left;
     font-size: 50px;
+    vertical-align: middle;
 }
 
 .block-title-h2 {
@@ -12,15 +13,17 @@
     padding: 0 10% 5% 15%;
     text-align: left;
     font-size: 35px;
+    vertical-align: middle;
 }
 
 .block-image {
     float: right;
     width: 83%;
     height: 500px;
-    background-image: url(../image/computer.jpeg);
+    background-image: url(../image/computer-own.webp);
     background-size: 100%;
     margin: 1% 1% 1% 5%;
+    vertical-align: middle;
 }
 
 .block-image-button {
@@ -30,6 +33,7 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 
@@ -45,6 +49,7 @@
     padding-top: 1%;
     margin-left: 1%;
     margin-top: 23%;
+    vertical-align: middle;
 }
 
 .news-a {
@@ -58,11 +63,13 @@
     width: 35px;
     margin-top: 10px;
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 .news-text {
     float: right;
     padding: 2%;
+    vertical-align: middle;
 }
 
 
@@ -75,30 +82,36 @@
     background-color: yellowgreen;
     margin: 1% 1% 2% 5%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .icon-heart {
     display: inline-block;
     margin: 0 1% 1% 3%;
+    vertical-align: middle;
 }
 
 .icon-clock {
     display: inline-block;
     margin: 0 1% 1% 9%;
+    vertical-align: middle;
 }
 
 .icon-cog {
     display: inline-block;
     margin: 0 1% 1% 9%;
+    vertical-align: middle;
 }
 
 .icon-bar-chart {
     display: inline-block;
     margin: 0 1% 1% 9%;
+    vertical-align: middle;
 }
 
 .icon-p {
     padding-left: 5%;
+    vertical-align: middle;
 }
 
 
@@ -111,6 +124,7 @@
     background-color: rgb(73, 50, 205);
     margin: 1% 1% 2% 5%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .nootbook {
@@ -119,6 +133,7 @@
     display: inline-block;
     float: left;
     margin: 1% 1% 1% 2%;
+    vertical-align: middle;
 }
 
 .nootbook-button {
@@ -128,11 +143,13 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .computer {
     float: left;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .computer-button {
@@ -142,11 +159,14 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .printer {
     display: inline-block;
     float: left;
+    vertical-align: middle;
+    vertical-align: middle;
 }
 
 .printer-button {
@@ -156,11 +176,13 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .monitor {
     display: inline-block;
     float: left;
+    vertical-align: middle;
 }
 
 .monitor-button {
@@ -170,11 +192,13 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .proektor {
     float: left;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .proektor-button {
@@ -184,11 +208,13 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 .scaner {
     display: inline-block;
     float: left;
+    vertical-align: middle;
 }
 
 .scaner-button {
@@ -198,6 +224,7 @@
     background-color: darkviolet;
     color: white;
     font-size: 18px;
+    vertical-align: middle;
 }
 
 
@@ -433,6 +460,7 @@
     height: 300px;
     background-color: burlywood;
     float: right;
+    vertical-align: middle;
 }
 .reviews-line {
     float: right;
@@ -446,17 +474,20 @@
     font-size: 19px;
     float: left;
     margin: 1% 1% 1% 1%;
+    vertical-align: middle;
 }
 .reviews-content2 {
     color: cornsilk;
     font-size: 19px;
     float: right;
     margin: 1% 1% 1% 1%;
+    vertical-align: middle;
 }
 .img-reviews {
     height: 200px;
     width: 200px;
     float: left;
+    vertical-align: middle;
 }
 .reviews-text-h3 {
     color: rgb(73, 50, 205);
@@ -464,11 +495,13 @@
 }
 .reviews-text {
     margin: 0;
+    vertical-align: middle;
 }
 
 /* form-return */
 .form {
     display: block;
+    vertical-align: middle;
 }
 .form-return {
     width: 100%;
@@ -490,6 +523,7 @@
     font-size: 25px;
     font-weight: bold;
     color: white;
+    vertical-align: middle;
 }
 .form-input-name {
     width: 30%;
@@ -514,6 +548,7 @@
     width: 25%;
     background-color: red;
     margin: 2% 0 2% 3%;
+    vertical-align: middle;
 }
 .form-checkbox {
     width: 20%;
@@ -526,4 +561,5 @@
     padding: 0;
     font-size: 18px;
     color: yellowgreen;
+    vertical-align: middle;
 }
