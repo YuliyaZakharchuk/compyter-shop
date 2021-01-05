@@ -1,13 +1,13 @@
 .header {
     height: 100px;
     width: 100%;
-    background-color: chocolate;
+    background-color: #3b28cc;
 }
 
 .main {
     height: 2600px;
     width: 100%;
-    background-color: darkgoldenrod;
+    background-color: #add7f6;
 }
 
 .footer {

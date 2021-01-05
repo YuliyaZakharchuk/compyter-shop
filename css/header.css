@@ -26,19 +26,19 @@ ul.menu>li>a {
     display: block;
     padding: 20% 20% 20% 20%;
     color: white;
-    background-color: red;
+    background-color: #3b28cc;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
 }
 
 ul.menu>li>a:hover {
-    background-color: darkred;
+    background-color: #3f8efc;
     vertical-align: middle;
 }
 
 ul.menu>li>a>button:hover {
-    background-color: darkred;
+    background-color: #3f8efc;
     vertical-align: middle;
 }
 
@@ -49,7 +49,7 @@ ul.submenu {
     top: 100px;
     left: 0;
     background-color: white;
-    border: 1px solid red;
+    border: 1px solid #3b28cc;
     vertical-align: middle;
 }
 
@@ -62,7 +62,7 @@ ul.submenu>li>a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: red;
+    background-color: #3b28cc;
     text-decoration: none;
     vertical-align: middle;
 }
@@ -91,7 +91,7 @@ ul.menu>li:hover>ul.submenu {
     right: 0px;
     height: 42px;
     border: none;
-    background: red;
+    background: #3b28cc;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     vertical-align: middle;
