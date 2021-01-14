@@ -53,6 +53,249 @@
 
 /* filter  */
 
+.filter {
+    height: 600px;
+    width: 170px;
+    background-color: #87bfff;
+    text-align: left;
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-top: 50%;
+    vertical-align: middle;
+}
+
+.filter-line {
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    text-align: left;
+    position: absolute;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.fa-angel-down {
+    float: right;
+}
+
+
+/* скрываем чекбоксы и блоки с содержанием */
+
+.hide {
+    display: none;
+}
+
+.hide+label~div {
+    display: none;
+}
+
+
+/* оформляем текст label */
+
+.hide+label {
+    padding: 0;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/* вид текста label при активном переключателе */
+
+.hide:checked+label {
+    color: blue;
+    border-bottom: 0;
+}
+
+
+/* когда чекбокс активен показываем блоки с содержанием  */
+
+.hide:checked+label+div {
+    display: block;
+    background: #87bfff;
+    -moz-box-shadow: inset 3px 3px 10px #87bfff;
+    -webkit-box-shadow: inset 3px 3px 10px #87bfff;
+    box-shadow: inset 3px 3px 10px #87bfff;
+    padding: 10px;
+}
+
+
+/* demo контейнер */
+
+.demo {
+    margin: 5% 10%;
+}
+
+input:checked+span {
+    background: #fc0;
+}
+
+.checkbox-size {
+    height: 15px;
+    width: 15px;
+}
+
+.text-down {
+    margin-top: 5%;
+}
+
+
+/* spoiler */
+
+#price_slider {
+    font-size: 11px;
+}
+
+.fp_field {
+    width: 100%;
+    padding: 4px 0 8px 15px;
+    text-align: left;
+}
+
+* {
+    margin: 0;
+    outline: none;
+}
+
+.td[Attributes Style] {
+    vertical-align: top;
+}
+
+.td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+@media screen and (max-width: 1024px) #price_slider_outer {
+    padding-top: 10px;
+}
+
+#price_slider_outer {
+    box-sizing: border-box;
+    font-size: 11px;
+    padding: 0 15px 5px 0;
+}
+
+@media screen and (max-width: 767px) .fp_field>div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+@media screen and (max-width: 959px) .fp_field>div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3333%;
+}
+
+@media screen and (max-width: 1024px) .fp_field>div {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.fp_field>div {
+    float: left;
+    width: 100%;
+}
+
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #eee url(/styles/ui-lightness-new/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;
+    color: #333;
+}
+
+.ui-widget {
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.ui-slider-horizontal {
+    height: .8em;
+}
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid #ccc;
+    background: #f6f6f6 url(/styles/ui-lightness-new/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #1c94c4;
+}
+
+.ui-widget-content a {
+    color: #333;
+}
+
+.box_content a,
+.box_content a:hover {
+    text-decoration: underline;
+    color: #666666;
+    font-weight: normal;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+
 
 /* block-1 */
 
