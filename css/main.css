@@ -556,7 +556,7 @@
 .form-button {
     width: 25%;
     background-color: #3638d9;
-    margin: 2% 0 12% 3%;
+    margin: 2% 0 2% 3%;
     vertical-align: middle;
     color: white;
 }
@@ -571,4 +571,7 @@
 }
 .row {
     width: 100%;
+}
+.form-accept {
+    margin: 2% 0 2% 3%;
 }
