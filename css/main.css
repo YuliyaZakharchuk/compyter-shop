@@ -80,7 +80,6 @@
     float: right;
     width: 83%;
     height: 120px;
-    background-color: #3f8efc;
     margin: 1% 1% 2% 5%;
     display: inline-block;
     vertical-align: middle;
@@ -565,12 +564,12 @@
     width: 20%;
     height: 22px;
     float: left;
-    margin-top: 2%
+    margin: 0;
+    padding: 0;
 }
 .form-checkbox-text {
-    margin-left: 0;
+    margin: 0;
     padding: 0;
     font-size: 18px;
     color: #3a2cd0;
-    vertical-align: middle;
 }
